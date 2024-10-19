@@ -1,0 +1,20 @@
+### Send simple mail
+POST localhost:8080/mail-send/simple
+Content-Type: application/json
+
+{
+  "toAccount": "bigmangcom@gmail.com",
+  "subject": "Salom xat",
+  "text": "Assalomu alaykum. Jallimi"
+}
+
+
+### Send Mime mail
+POST localhost:8080/mail-send/mime
+Content-Type: application/json
+
+{
+  "toAccount": "bigmangcom@gmail.com",
+  "subject": "Juda chiroyli xat",
+  "text": "Assalomu alaykum. Jallimi"
+}
